@@ -8,3 +8,14 @@
     border-bottom: 1px solid#18364a;
 
 }
+
+.cabecalho-nav{
+    text-align: center;
+}
+
+.cabecalho-nav-item{
+    display: inline-block;
+    line-height: 2;
+    margin: 0 .5em;
+    font-size:  .95em;
+}
