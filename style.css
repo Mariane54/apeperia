@@ -1,22 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .cabecalho{
-    position: absolute;
-    top: -2.5em;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    width: 100%;
-    border-bottom: 1px solid#18364a;
-
+    width: 80px;
+    border-color: #242b36;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
 }
 .cabecalho-logo{
-    margin-bottom: 2em;
+    width: 170px;
+    margin-bottom: .2em;
 }
 
 .cabecalho-nav{
+    display: flex;
+    gap: 30px;
     text-align: center;
 }
 
 .cabecalho-nav-item{
+    color: white;
     display: inline-block;
     line-height: 2;
     margin: 0 .5em;
@@ -27,6 +34,19 @@
     text-decoration: none;
     color: #fff;
     font-family: 'open Sans', serif;
+}
+.cabecalho-nav-item a:hover{
+    color: #d45b68;
+}
+.conteudo{
+    height: 600px;
+    background-image: url("bg-intro.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .secaoDestaque{
     background-image: url(bg-intro.jpg);
