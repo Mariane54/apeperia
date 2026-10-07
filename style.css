@@ -49,5 +49,34 @@
     text-align: center;
 }
 .secaoDestaque{
-    background-image: url(bg-intro.jpg);
+   width: 80%;
+   max-width: 850px;
+}
+.conteudo h1{
+    color: white;
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.conteudo p{
+    color: white;
+    font-size: 21px;
+    line-height: 1.4;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+.btnPadrao{
+    border-radius: 0;
+    background-color: #972E2E;
+    color: #fff;
+    font-size: 1.2em;
+    padding: .3em 1em;
+    font-family: 'open san', 'segoe UI', sans-serif;
+    outline: 0;
+    text-decoration: none;
+}
+.btnPadrao:hover,
+.btnPadrao:focus{
+    background-image: linear-gradient(rgba(255,255,255,.05), rgba(255,255,255,.05));
+    cursor: pointer;
 }
