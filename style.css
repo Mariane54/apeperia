@@ -197,8 +197,44 @@ main {
     top: 4px;
 
 
-    .secaoPlanos-planos-itens{
+.secaoPlanos-planos-itens{
       
-    }
+}
+
+
+
+
+.secaoDestaques-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.secaoDestaques-item {
+  max-width: 280px;
+  text-align: center;
+}
+.secaoDestaques-img {
+  width: 100%;
+  display: block;
+}
+.secaoNews {
+  margin-top: 3rem;
+  text-align: center;
+}
+.secaoNews-form {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.secaoNews-form input {
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
   }
 }
